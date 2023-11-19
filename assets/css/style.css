@@ -1,0 +1,84 @@
+/* overflow x hides the scroll bar */
+body {
+    margin: 0;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+  }
+  
+  .background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: -1;
+    background-image: url(https://wallpapercave.com/wp/wp9116464.jpg);
+  }
+#Fantom {
+    font-family: 'Josefin Sans';
+    margin-left: 10px;
+}
+  header {
+    background-color: transparent;
+    color: white;
+    display: flex;
+    font-family: 'Josefin Sans';
+    width: 100%;
+    padding-left: 1%;
+    z-index: 1;
+    justify-content: space-between;
+    transition: background-color 0.5s ease; /* Smooth transition for header background */
+  }
+  nav ul {
+  display: flex;
+  list-style: none;
+  min-width: 300px;
+  justify-content: space-between;
+  margin-right: 60px;
+  margin-top:30px;
+}
+
+nav a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+  
+  .main-content {
+    padding: 20px;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Ephesis', 'san serif';
+    font-size: 40px;
+    margin-top: 130px;
+    font-weight: 300;
+    height: 100vh;
+    text-shadow: 
+    2px -1px 0 #938200; /* Bottom left */
+  }
+  
+  .additional-content {
+    background-color: transparent;
+    padding: 20px;
+  }
+  
+  .second-page {
+    background-color: black; 
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
