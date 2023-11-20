@@ -43,7 +43,7 @@ body {
 }
 
 nav a {
-  color: white;
+  color: rgb(255, 255, 255);
   font-weight: bold;
   text-decoration: none;
 }
@@ -59,9 +59,9 @@ nav a:hover {
     font-family: 'Ephesis', 'san serif';
     font-size: 2.5rem;
     line-height: 180%;
-    margin-top: 8%;
+    margin-top: 8.5%;
     font-weight: 0;
-    height: 100vh;
+    height: 65vh;
   }
   
 .LineOne {
@@ -86,15 +86,19 @@ nav a:hover {
 
 
   .AboutMeWorkEtc {
-    background-color: transparent;
-    padding: 20px;
-  }
-  
-  .second-page {
+    display:inline-block;
     background-color: black; 
     padding: 20px;
     color: white;
   }
+
+  .second-page {
+
+  }
+.second-page p{
+    display: flex;
+    align-items: flex-end;
+}
   
   footer {
     background-color: transparent;
