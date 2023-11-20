@@ -1,10 +1,8 @@
-/* overflow x hides the scroll bar */
+
 body {
     margin: 0;
-    overflow-x: hidden;
     display: flex;
     flex-direction: column;
-    line-height: 1.3;
   }
   
   .background-image {
@@ -20,15 +18,17 @@ body {
 #Fantom {
     font-family: 'Josefin Sans';
     margin-left: 10px;
+    font-size: 2.5rem;
+    line-height: 1.3;
 }
   header {
     background-color: transparent;
     color: white;
     display: flex;
-    font-family: 'Josefin Sans';
+    font-family: 'Cormorant Garamond';
+    line-height: 1.3;
     width: 100%;
-    padding-left: 1%;
-    z-index: 1;
+    padding-left: 1.5%;
     justify-content: space-between;
     transition: background-color 0.5s ease; /* Smooth transition for header background */
   }
@@ -36,9 +36,10 @@ body {
   display: flex;
   list-style: none;
   min-width: 300px;
-  justify-content: space-between;
-  margin-right: 60px;
-  margin-top:30px;
+  font-size: 1.5rem;
+  justify-content: center;
+  margin-right: 50px;
+  margin-top:32px;
 }
 
 nav a {
@@ -51,21 +52,40 @@ nav a:hover {
   color: #fff;
 }
 
-  
-  .main-content {
+.main-content {
     padding: 20px;
     text-align: center;
     color: aliceblue;
     font-family: 'Ephesis', 'san serif';
-    font-size: 40px;
-    margin-top: 130px;
-    font-weight: 300;
+    font-size: 2.5rem;
+    line-height: 180%;
+    margin-top: 8%;
+    font-weight: 0;
     height: 100vh;
-    text-shadow: 
-    2px -1px 0 #938200; /* Bottom left */
   }
   
-  .additional-content {
+.LineOne {
+    font-weight: 10;
+    text-shadow: 
+    1px -1px 0 lightcyan; /* Bottom left */
+}
+.LineTwo {
+    font-weight: 500;
+    text-shadow: 
+    1px -1px 0 lightcyan; /* Bottom left */
+}
+#LineThree {
+    padding: 20px;
+    text-shadow: 
+    1px -1px 0 lightcyan; /* Bottom left */
+}
+#LineFour {
+    text-shadow: 
+    1px -1px 0 lightcyan; /* Bottom left */
+}
+
+
+  .AboutMeWorkEtc {
     background-color: transparent;
     padding: 20px;
   }
@@ -73,6 +93,7 @@ nav a:hover {
   .second-page {
     background-color: black; 
     padding: 20px;
+    color: white;
   }
   
   footer {
