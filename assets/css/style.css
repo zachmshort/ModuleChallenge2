@@ -14,6 +14,7 @@ body {
     background-size: cover;
     z-index: -1;
     background-image: url(https://wallpapercave.com/wp/wp9116464.jpg);
+    opacity: 95%;
   }
 #Fantom {
     font-family: 'Josefin Sans';
@@ -42,6 +43,7 @@ header nav ul {
 }
 header nav ul li {
   margin: 5px;
+  margin-left: 50px;
 }
 header nav a {
   color: rgb(255, 255, 255);
@@ -61,11 +63,17 @@ nav a:hover {
     font-size: 2.5rem;
     line-height: 180%;
     margin-top: 8.5%;
-    font-weight: 0;
+    font-weight: 100;
     height: 100vh;
+    text-decoration: unset;
+
     text-shadow: 
-    1px -1px 0 lightcyan; 
+    -2px 2px 0 rgb(206, 197, 179); 
   }
+
+.quote {
+  color: #fff;
+}
 
 .AboutMeWorkEtc {
   background-color: black;
@@ -241,6 +249,8 @@ text-decoration: none;
   line-height: 1.5;
   color: #FDA766;
 }
-footer {
+
+.second-page {
   background-color: black;
+  height: 20vh;
 }
