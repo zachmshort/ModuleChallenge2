@@ -45,6 +45,8 @@ header nav ul li {
   margin: 5px;
   margin-left: 50px;
 }
+
+
 header nav a {
   color: rgb(255, 255, 255);
   font-weight: bold;
@@ -52,7 +54,9 @@ header nav a {
 }
 
 nav a:hover {
-  color: #fff;
+  color: #FDA766;
+  font-weight: 100;
+  font-style: italic;
 }
 
 .main-content {
@@ -93,16 +97,16 @@ nav a:hover {
 }
 
 .heading1 img {
-  position: absolute;
+  position: relative;
   max-width: 100px;
   max-height: 100px;
-  margin-top: -4.6%;
+  margin-top: -3.5%;
   margin-left: 20%;
 }
 .heading1 p{
-position:absolute;
-margin-top: -90px;
-margin-left: 27%;
+position:relative;
+margin-top: -100px;
+margin-left: 25%;
 line-height: 2;
 color: #FDA766;
 font-family: 'Quicksand', sans-serif;
@@ -223,7 +227,6 @@ text-decoration: none;
   border-color: #d35400; /* Darker orange border on hover */
 }
 
-
 .AboutMeWorkEtc a:hover {
   color: #d35400;
 }
@@ -232,12 +235,11 @@ text-decoration: none;
   position:absolute;
   color: #FDA766;
   margin-left: 18%;
-  margin-top: -5.2%;
+  margin-top: -4%;
   }
 
 .myInfo nav ul {
   display: flex;
-
   list-style: none;
 }
 
@@ -253,4 +255,116 @@ text-decoration: none;
 .second-page {
   background-color: black;
   height: 20vh;
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  header nav ul {
+    position: relative;
+    font-size: 1rem;
+    display: list-item;
+  }
+
+    header nav ul li {
+    position: relative;
+    margin-left: 120px;
+  }
+
+  .main-content {
+    margin-top: 15%;
+    font-size: 1.8rem;
+  }
+
+  .heading1 h2{
+    max-width: 100%;
+    margin-bottom: 10%;
+    display: flex;
+    margin-left: 10px;
+    border-right: 0cm;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heading1 img {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    margin-right: 0;
+    margin-left: 10px
+  }
+.AboutMeWorkEtc p {
+  position: relative;
+  margin-bottom: 0px;
+  display: flex;
+}
+.AboutMeWorkEtc {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+.AboutMeWorkEtc h2 {
+    display: flex;
+    margin-left: 10px;
+    border-right: 0cm;
+    justify-content: center;
+    align-items: center;
+  }
+
+.BOXES-MAIN {
+  margin-top: 10%;
+}
+.BOXES-MAIN h2 {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
+  align-items: center;
+}
+#box0 {
+  background-position: top;
+}
+#box0 a {
+  font-size: 22px;
+}
+#box1 a, #box2 a {
+  font-size: 20px;
+}
+.myInfo nav ul li a {
+    font-size: 1.2rem;
+}
+#ContactMe {
+  display: flex;
+  white-space: nowrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  max-height: 50px;
+  margin-top: 40px;
+}
+.myInfo nav{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding-left: 0;
+}
+
+.myInfo nav ul{
+  padding-left: 0;
+}
+
+.myInfo nav ul li a {
+  font-size: .65rem;
+}
+}
+
+@media only screen and (max-width: 400px) {
+  header nav ul{
+    padding: 0%;
+  }
 }
